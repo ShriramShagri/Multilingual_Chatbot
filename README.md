@@ -1,23 +1,23 @@
 # Multilingual Chatbot
 
-#### What's our idea?
+### What's our idea?
 
 Our idea is to build a multilingual chatbot which can be implemented over different development environments. 
 
-#### What will this improve?
+### What will this improve?
 
 A chatbot which can talk in more than one language finds itself useful to developers who are targeting to develop an mobile or web application which requires customer care services and which has the users from large geographical area. The support for multiple languages can be very user friendly as the users can interact with their language of choice.
 
 ---
 
-#### Approach:
+### Approach:
 Our approach for multilingual chat bot model includes an API which takes user question as an input, tries to understand and delivers a proper reply for the question user asks as an output. Primary goal is to include as many regional languages of India as possible.
 
 The type of chat bot that we are building is retrieval type chat bot or rule based chat bot. The replies are not generated runtime but are fetched from database which holds previously determined reply strings. The reason we chose on building a rule based chat bot is because of the domain we chose. The answers are mostly descriptive and are to be stored in database. 
 
 ---
 
-#### Architecture:
+### Architecture:
 
 The model consists of following components:
 1) A front end for user interactions.
@@ -46,7 +46,7 @@ Planning to extend to more regional languages soon
 
 ---
 
-#### Domain:
+### Domain:
 
 As building a general chat bot is very hard a suitable domain for the chat bot has been chosen. The domain we chose for the chat bot is COVID-19 outbreak. 
 We designed a chat bot which answers any questions related to following topics.
@@ -57,7 +57,7 @@ We designed a chat bot which answers any questions related to following topics.
 5. About corona virus
  
 
-### What are the types questions that can be asked?
+#### What are the types questions that can be asked?
 Questions can broadly classified into two kinds. First one is descriptive questions(Example: "What is COVID-19?") where the questions asked by the user has a unique descriptive answer. These kinds of questions are easier to handle. The second type of questions require chained replies(Example: "I visited hospital. Are there chances of me getting infected?"). This means in some particular types of questions, the answer can be only given after analyzing the situation the user is in. So once such question is asked, we will have to ask a few questions back to the user to get details on his current situation and only then a proper answer can be given.
 
 ---
