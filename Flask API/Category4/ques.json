@@ -1,0 +1,115 @@
+{
+    "intents":[
+        {
+            "tag" : "greeting",
+            "pattern" : [
+                "hi",
+                "Hey whats up",
+                "hello",
+                "how you",
+                "is anyone there",
+                "knock knock",
+                "whats up",
+                "Hey",
+                "Good Morning",
+                "Good afternoon",
+                "Good Evening"
+                 
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "goodbye",
+            "pattern" : [
+                "Thanks" ,
+                "Catch you soon" ,
+                "bye" ,
+                "see you later",
+                "see you next time" ,
+                "have good day",
+                "Take Care",
+                "Talk to you later",
+                "I gotta go",
+                "It was pleasure speaking to you",
+                "It was glad speaking to you",
+                "Bye for now"  
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "name",
+            "pattern" : [
+                "what is your name ",
+                "what should I call you ",
+                "whats your name", 
+                "your name ",
+                "Your good name please",
+                "Who you",
+                "May I know your name",
+                "What you named",
+                "What do you call yourself",
+                "How can call you",
+                "Who is speaking"
+               
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag":"medcine_for_virus",
+            "pattern":[
+                "Is there vaccine drug or treatment for virus",
+                " Can virus be cured",
+                "is there any cure for virus",
+                "How can virus be cured",
+                "did scientists find any antidote for this virus",
+                "any country found end way to end this pandemic",
+                "how can this pandemic be stopped ",
+                "any clue to stop spread of virus",
+                "any drug to stop growth of virus",
+                "did any field of biology find cure for virus",
+                "Is there vaccine",
+                "What treatments for virus"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"natural_drugs",
+            "pattern":[
+                "Can drug cure virus",
+                "Can drug be used cure virus",
+                "any drug to cure virus",
+                "any drug to virus",
+                "does drug help to cure virus",
+                "any drug to stop virus",
+                "any drug stops virus",
+                "does drug cure virus",
+                "Which drug can cure  virus"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"vaccine",
+            "pattern":[
+                "Do vaccines against pneumonia protect you against new virus",
+                "does anti malarial drug protect us against virus",
+                "does hydroxy chloro quinine help us from virus",
+                "any chemical till date help us from virus",
+                "Can vaccines prevent coronavirus",
+                "which is vaccine cure of virus",
+                "will spread of virus stop with usage of vaccine"
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"against_virus",
+            "pattern":[
+                "Is hand sanitizer effective against virus",
+                "is mask efficient against virus",
+                "how can we fight against virus"
+            ],
+            "context_set":""
+        }
+
+       
+    ]
+}

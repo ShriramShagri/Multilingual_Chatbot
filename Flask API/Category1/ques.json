@@ -1,0 +1,178 @@
+{
+    "intents":[
+        {
+            "tag" : "greeting",
+            "pattern" : [
+                "hi",
+                "Hey whats up",
+                "hello",
+                "how you",
+                "is anyone there",
+                "knock knock",
+                "whats up",
+                "Hey",
+                "Good Morning",
+                "Good afternoon",
+                "Good Evening"
+                 
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "goodbye",
+            "pattern" : [
+                "Thanks" ,
+                "Catch you soon" ,
+                "bye" ,
+                "see you later",
+                "see you next time" ,
+                "have good day",
+                "Take Care",
+                "Talk to you later",
+                "I gotta go",
+                "It was pleasure speaking to you",
+                "It was glad speaking to you",
+                "Bye for now"  
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "name",
+            "pattern" : [
+                "what is your name ",
+                "what should I call you ",
+                "whats your name", 
+                "your name ",
+                "Your good name please",
+                "Who you",
+                "May I know your name",
+                "What you named",
+                "What do you call yourself",
+                "How can call you",
+                "Who is speaking"
+               
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "symptoms",
+            "pattern" : [
+                "what symptoms of virus", 
+                "symptoms of disease", 
+                "What happens if somebody gets virus", 
+                "what signs that one has virus", 
+                "what characteristics of virus",
+                "What effects on body if affected from virus",
+                "How do I know if I tested positive for virus",
+                "What early symptoms",
+                "When should I contact doctor to know my health status"
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "symptoms_spread_from_healthy",
+            "pattern" : [
+                "can virus be caught from person who has no symptoms ",  
+                "can I catch virus from someone with no symptoms ", 
+                "will virus spread from someone without illness ", 
+                "what chances of spreading from  healthy person ", 
+                "can I catch virus from someone who is healthy "
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "incubation",
+            "pattern" : [
+                "what is incubation period of virus",
+                "how long will it take after exposure to virus for it to show symptoms",
+                "how long will it take for symptoms to show up ", 
+                "how much time will be taken for virus to show symptoms ",
+                "What is time required to know status of virus",
+                "How long should I wait to know symptoms of virus",
+                "What is duration period to know that virus positive",
+                "Does this virus have any incubation period,if so how long"
+             
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "old_people",
+            "pattern" : [
+                "does new virus affect older people" , 
+                "is virus bad for old age people " ,
+                "who at higher risks of virus attack " ,
+                "is virus more risky for older people " ,
+                "who is at higher risk of getting this disease" , 
+                "i have diabetes, I risk of getting virus", 
+                "what risks of getting disease for heart patient", 
+                "What is severity of virus for people with low immunity"
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "death_rate",
+            "pattern" : [
+                "Will i die if i get virus", 
+                "How dangerous is virus", 
+                "Should I be scared of being infected by virus", 
+                "what is survival rate of virus", 
+                "what is recovery rate of virus", 
+                "what is percentage of people surviving virus", 
+                "Is virus dangerous", 
+                "How likely is that i will die if i get virus",
+                "Will I survive if I get virus",
+                "What probability of me surviving of I get virus",
+                "What chances of me surviving of I get virus",
+                "Will I die as soon as I affected with virus",
+                "Is virus deadly dangerous",
+                "Can I survive with this virus",
+                "How fatal is this virus"
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "check_corona",
+            "pattern" : [
+                "How do I know if I have virus ", 
+                "I have disorder Do I have virus", 
+                "I have disorder. Do I have virus",
+                "I have disorder Do I have virus",
+                "I suffering from disorder continuously. What should i do", 
+                "I suffering from disorder is it that I have virus",
+                "I have disorder is it that I have virus",
+                "I have disorder. Do I have virus"
+                
+            ],
+            "context_set" : "1"
+        },
+        {
+            "tag" : "bp",
+            "pattern" : [
+                "I have high blood pressure I at risk", 
+                "What to do if I have high bp",
+                "Is low bp symptom for virus",
+                "How hypertension and virus related",
+                "Does bp medicine increase virus symptoms"
+                
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "pregnant",
+            "pattern" : [
+                "pregnant women more at risk", 
+                "What cares taken for pregnant women", 
+                "pregnants weak against virus than normal people",
+                "How can pregnant women be safe from virus",
+                "What if they become virus positive before delivery",
+                "there any chances of attack of virus depending on  pregnancy month of women",
+                "How to keep mother and child safe from virus after delivery",
+                "How to protect pregnant women from virus",
+                "Will virus transfer to fetus for an virus positive pregnant women",
+                "What happens if I get virus while I pregnant"
+            ],
+            "context_set" : ""
+
+        }
+    ]
+}

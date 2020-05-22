@@ -1,0 +1,183 @@
+{
+    "intents":[
+        {
+            "tag" : "greeting",
+            "pattern" : [
+                "hi",
+                "Hey whats up",
+                "hello",
+                "how you",
+                "is anyone there",
+                "knock knock",
+                "whats up",
+                "Hey",
+                "Good Morning",
+                "Good afternoon",
+                "Good Evening"
+                 
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "goodbye",
+            "pattern" : [
+                "Thanks" ,
+                "Catch you soon" ,
+                "bye" ,
+                "see you later",
+                "see you next time" ,
+                "have good day",
+                "Take Care",
+                "Talk to you later",
+                "I gotta go",
+                "It was pleasure speaking to you",
+                "It was glad speaking to you",
+                "Bye for now"  
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "name",
+            "pattern" : [
+                "what is your name ",
+                "what should I call you ",
+                "whats your name", 
+                "your name ",
+                "Your good name please",
+                "Who you",
+                "May I know your name",
+                "What you named",
+                "What do you call yourself",
+                "How can call you",
+                "Who is speaking"
+               
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "food",
+            "pattern" : [
+                "can I catch virus from food", 
+                "can I get sick with virus if it is on food", 
+                "can virus spread through food", 
+                "is food means for virus spread",
+                "Does virus transmit from food",
+                "Does virus spread from non vegetarian dishes",
+                "Should we avoid consuming food from outside",
+                "is hotel food safe", 
+                "resturants safe",
+                "Does virus spread if infected person prepares food",
+                "Does virus spread from food manufacturing units"
+            
+                
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "temperature",
+            "pattern" : [
+                " Does higher temperature prevent virus", 
+                "Can I catch virus if I live in hot area", 
+                "Is virus effective in higher temperatures", 
+                "Does hot climate affect virus in any way",  
+                "In what areas can virus spread?", 
+                "Does virus spread in all areas", 
+                "does virus spread in all types of climate",
+                "What amount of temperature kills virus",
+                "Does humidity affect virus"
+               
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "mosquitos",
+            "pattern" : [
+                "Can virus be transmitted through mosquitoes", 
+                "Can mosquitos spread virus", 
+                "Does virus spread like malariafrom mosquito", 
+                "Can mosquito bites spread virus", 
+                "will virus transmit through mosquito bites",
+                "Does female mosquito bite spread virus"
+               
+         
+            ],
+           "context_set" : ""
+        },
+        {
+            "tag" : "infected_animals",
+            "pattern" : [
+                " Do animals have virus", 
+                "any animals other than humans affected by virus",
+                "domestic animals affected by virus",
+                "Is virus zoonotic",
+                "Does virus spread from animal to animal",
+                "What kind of animals prone to virus",
+                "animals responsible for spread of virus"
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "pets",
+            "pattern" : [ 
+                "Can animals carry virus that causes disease on their skin or fur", 
+                "Do pets transmit virus", 
+                "Should I avoid contact with pets or other animals if I sick with virus",
+                "Can I play with my pet if I affected with virus",
+                "Do I need to get tested my pet for virus",
+                "What should I do if my pet gets sick",
+                "Do virus spread from wild animals to pets",
+                "Does virus spread from pets to human"
+              
+             
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "air",
+            "pattern" : [
+                " Is virus airborne", 
+                "Can virus spread through air", 
+                "Is virus spread by air",
+                "How long does virus stay in air",
+                "Does air become poisonous from virus"
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "surface",
+            "pattern" : [
+                "How long does disease last on surface", 
+                " How many hours virus lives on surface", 
+                "How long does virus survive on smooth surfaces and materials can I get infected like this", 
+                "what is duration of virus resting on a surface", 
+                "How long will it take to remove infection from surface", 
+                "How much time for me to get not infected by surface touched by others"
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "spread",
+            "pattern" : [
+                "How does virus spread", 
+                "means of virus spread", 
+                "how do people get infected by virus", 
+                "How may I get virus",
+                "How is virus spreading so quickly",
+                "How will I catch virus"
+            ],
+            "context_set" : ""
+        },
+        {
+            "tag" : "myself",
+            "pattern" : [
+                "How likely I to catch virus", 
+                "What chances of me catching virus",
+                "will I get virus", 
+                "what is probability that i have virus",
+                "Do I have virus"
+                
+            ],
+            "context_set" : ""
+        }
+    ]
+}
