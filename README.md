@@ -83,7 +83,7 @@ ___
 * Tensorflow 1.14
 * Nltk
 * Flask
-* Redis Database (Include config.py file for getting url port and password for database)
+* Redis Database (Include config file for getting url port and password for database)
 
 ---
 
@@ -103,4 +103,13 @@ ___
 ```Bash
     flask run
 ```
-Procfile included to be deployed in heroku
+> Config file:
+```python
+    def cred():
+        redis = {
+            'host' : "host url", 
+            'port' : 'port number', 
+            'password' : 'password'
+        }
+        return redis
+```
