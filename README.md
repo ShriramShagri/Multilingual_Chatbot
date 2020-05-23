@@ -69,9 +69,14 @@ Questions can broadly classified into two kinds. First one is descriptive questi
 * Flask API (For Machine Learning)
 
 ---
+## Website
+---
+## Flutter Application
+---
+## Node API
+---
 
-
-# Flask API
+## Flask API
 
 > To train the api to answer custom questions change the json files inside Categories file and train the bot.
 
