@@ -118,3 +118,27 @@ ___
         }
         return redis
 ```
+**Routes**
+
+* Languages
+* Category
+* Prediction(POST Request)
+
+>JSON Format for POST Request:
+```json
+
+    {
+        "ques" : "Question String",
+        "lang" : "Language code"
+    }
+
+```
+>Reply:
+```json
+
+    {
+        "reply" : "Reply String",
+        "chain" : "Boolean Value"
+    }
+
+```
