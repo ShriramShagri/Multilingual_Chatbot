@@ -165,7 +165,7 @@ Questions can broadly classified into two kinds. First one is descriptive questi
 <table>
     <tr>
         <td>
-            <a href="https://github.com/ShriramShagri">Shriram A S</a>
+            <a href="https://github.com/ShriramShagri">Shrirama Shagri</a>
         </td>
     </tr>
     <tr>
